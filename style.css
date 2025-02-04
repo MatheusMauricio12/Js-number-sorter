@@ -40,31 +40,31 @@ body::before {
     overflow: hidden;
 }
 
-.container__conteudo {
+.container__content {
     display: flex;
     align-items: center;
     position: relative;
     width: 100%;
 }
 
-.container__informacoes {
+.container__informations {
     flex: 1;
     padding: 3rem;
 }
 
-.container__texto {
+.container__text {
     margin: 12px 0;
     display: flex;
     flex-direction: column;
 }
 
-.container__texto-azul {
+.container__text-blue {
     color: #1875E8;
     display: block;
 
 }
 
-.container__campo {
+.container__field {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -84,13 +84,13 @@ body::before {
     font-family: 'Inter', sans-serif;
 }
 
-.container__botoes {
+.container__buttons {
     display: flex;
     flex-direction: row;
     gap: 1em;
 }
 
-.container__botao {
+.container__button {
     border-radius: 16px;
     background: #1875E8;
     padding: 16px 24px;
@@ -101,7 +101,7 @@ body::before {
     cursor: pointer;
 }
 
-.container__botao-desabilitado {
+.container__button-unabled {
     border-radius: 16px;
     background: #6f6f70;
     padding: 16px 24px;
@@ -121,7 +121,7 @@ h1 {
     padding: 2rem;
 }
 
-.texto__paragrafo {
+.text__paragraph {
     color: #FFF;
     font-family: 'Inter';
     font-size: 32px;
@@ -130,10 +130,10 @@ h1 {
     line-height: normal;
 }
 
-.container__imagem-pessoa {
-    max-width: 100%;
+.container__image-character {
+    max-width: 50%;
     height: auto;
-    margin-top: 2rem;
+    margin-top: 0;
 }
 
 button:disabled {
